@@ -158,3 +158,8 @@ REST_FRAMEWORK = {
     #'PAGE_SIZE': 10
 }
 
+# Looking to send emails in production? Check out our Email API/SMTP product!
+EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+EMAIL_HOST_USER = '7d56784061f571'
+EMAIL_HOST_PASSWORD = '4056b712d1e6a3'
+EMAIL_PORT = '2525'
